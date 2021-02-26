@@ -16,17 +16,15 @@ Coming Soon
 ## Use
 
 A first screen to gather user name (will be replaced with choice of quizzes in future)
-![screenshot of first screen](/Images/MazeBlast2.PNG)
+![screenshot of first screen](/Images/QuickQuiz1.PNG)
 
-User is presented with a term/question and four randomized definitions/answers
-User score and number of correct answers is tracked
-![screenshot of second screen](/Images/MazeBlast3.PNG)
+The user is presented with a term/question and four randomized definitions/answers.
+The user score and number of correct answers are tracked.
+The program responds to user selecting correct answer with vibrant colors.
+![screenshot of second screen](/Images/QuickQuiz2.PNG) ![screenshot of second screen](/Images/QuickQuiz3.PNG)
 
-Program responds to user selecting correct answer with vibrant colors
-![screenshot of correct/incorrect answers](/Images/MazeBlast7.PNG)
-
-At the end of the quiz, user is presented with customized final score summary
-![screenshot of completed quiz](/Images/MazeBlast7.PNG)
+At the end of the quiz, the user is presented with customized final score summary.
+![screenshot of completed quiz](/Images/QuickQuiz4.PNG)
 
 The user can then return to the first screen to restart the quiz.
 
