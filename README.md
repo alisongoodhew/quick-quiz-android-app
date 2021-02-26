@@ -20,13 +20,15 @@ A first screen to gather user name (will be replaced with choice of quizzes in f
 
 User is presented with a term/question and four randomized definitions/answers
 User score and number of correct answers is tracked
-![screenshot of maze](/Images/MazeBlast3.PNG)
+![screenshot of second screen](/Images/MazeBlast3.PNG)
 
 Program responds to user selecting correct answer with vibrant colors
-![screenshot of maze](/Images/MazeBlast7.PNG)
+![screenshot of correct/incorrect answers](/Images/MazeBlast7.PNG)
 
 At the end of the quiz, user is presented with customized final score summary
+![screenshot of completed quiz](/Images/MazeBlast7.PNG)
 
+The user can then return to the first screen to restart the quiz.
 
 ## Planned Changes / Bug Fixes
 * More refined UI (font, color, button design)
