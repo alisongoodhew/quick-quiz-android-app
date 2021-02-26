@@ -1,0 +1,50 @@
+SharedPreferences Object#for data persistence if you have data that can be represented using key/value pairs.
+Internal Storage#use this for data persistence if you need to store ad-hoc data
+SD card#use this for data persistence when you need to share your application data with other users.
+Database#use this for data persistence if you need to save relational data.
+WRITE_EXTERNAL_STORAGE#to write to external storage, you need to add this permission to your AndroidManifest.xml file
+Data Persistence#term used to describe any method of storing data expected to reuse in applications sometime later
+getSharedPreferences#allows data saved with SharedPreferences to be shared among all the activities in an application
+getPreferences#allows data saved with SharedPreferences to only be accessible to the activity that created it
+MODE_PRIVATE#constant indicates that the shared preferences file can only be opened by the application that created it
+Helper#class type that is used to encapsulate all the complexities of accessing the data from a database
+SQLite#Android natively uses this database system
+Application#If you use Androids native database system, the database is only accessible to that same ___
+Constants#define several of these to contain the various fields for the table you are going to create in your database
+onCreate#creates a new database if the required database is not present
+onUpgrade#method for when an existing database needs to be changed to a newer version.
+Cursor#Android uses this class as a return value for queries
+Result set#The data returned from a query is known as this
+ContentValues#object to store key/value pairs. Its put method enables you to insert keys with values of different types
+FileOutputStream, OutputStreamReader#These classes are used to save data to a file.
+FileInputStream, InputStreamReader#These classes are used to read data from a file
+activity#a single screen with a user interface
+app#library where components such as Activity and AlertDialog are defined
+application components#building blocks of an Android app. Each a different point through which the system can enter your app
+Android application package file#compiled/packaged in a single file that includes all of the app's code (.dex files)
+Android operating system#This locates an appropriate component to respond to the intent, launches a new instance of the component if needed, and passes it the Intent object
+anonymous inner#unnamed class declared entirely in the body of another class/interface. Often for UI event handling
+broadcast receiver#components that respond to system-wide broadcast announcements
+content provider#supplies structured access to data managed by the application
+hash table/hash map#data structure that maps identifying values, known as keys, to associated values
+intent#use these to start activities, services, and broadcast receivers
+intent actions#describe the type of action you want to perform and allow the system to find a component on the device that can perform the action and start it
+intent object#bundle of information describing a desired action — data to be acted upon, category of component that should perform the action
+manifest#file describing the contents, permissions and other attributes of an Android application package
+SDK#includes tools developers use to create applications for Android OS based phones, and other devices
+service#components that run in the background to perform long-running operations or to perform work for remote processes
+start#that any application can do this to another application’s component
+Intent filter#there are multiple components that can perform an action described by an intent, then this selects which one to use
+util#library where components such as Random and List are defined
+view#library where components such as OnClickListener are defined
+widget#library where components such as Button and TextView are defined
+api# App Programming Interface - lets two apps talk to each other
+container#software package that can run an application without affecting the rest of the system
+bootstrap#the most popular css framework for websites
+laravel#php framework for web applications, complete with syntax
+RESTful#Representational State Transfer - architectural type for api with GET, POST, PUT, DELETE
+.NET#Microsoft's large cross-platform software development framework, runs on a single consistent library
+wysiwyg ("whizziwig")#"What you see is what you get" applications
+.NET core#Main form of .NET, used for cross-platform services
+.NET framework#Windows applications form of .NET
+Xamarin#.NET for mobile applications

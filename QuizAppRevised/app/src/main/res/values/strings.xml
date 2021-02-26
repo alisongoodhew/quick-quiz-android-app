@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Assignment2</string>
+    <string name="nameRequestTextView">Enter your name:</string>
+    <string name="btnName">Continue</string>
+    <string name="qNumTextView">Q</string>
+    <string name="scoreTextView">S</string>
+    <string name="rightWrongTextView">R/W</string>
+    <string name="btnReturn">Return to Main</string>
+    <string name="btnAnswerOne">1</string>
+    <string name="btnAnswerTwo">2</string>
+    <string name="btnAnswerThree">3</string>
+    <string name="btnAnswerFour">4</string>
+    <string name="nameTextView">Name</string>
+    <string name="btnNext">Next</string>
+    <string name="Application">Quick Quiz</string>
+</resources>

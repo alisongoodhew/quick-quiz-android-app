@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quiz_screen">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AED9E0"
+        android:dividerPadding="5sp"
+        android:padding="10sp"
+        android:shrinkColumns="1,2,3"
+        android:stretchColumns="1,2,3"
+        app:layout_constrainedHeight="false"
+        app:layout_constrainedWidth="false"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TableRow
+            android:id="@+id/row0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/qNumTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:text="@string/qNumTextView"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="1" />
+
+            <TextView
+                android:id="@+id/scoreTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_span="2"
+                android:text="@string/scoreTextView"
+                android:textAlignment="textEnd"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:gravity="center"
+            android:paddingStart="10sp"
+            android:paddingLeft="5sp"
+            android:paddingTop="10sp"
+            android:paddingEnd="10sp"
+            android:paddingRight="5sp"
+            android:paddingBottom="10sp">
+
+            <TextView
+                android:id="@+id/answerTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="3"
+                android:gravity="center"
+                android:paddingStart="10sp"
+                android:paddingTop="10sp"
+                android:paddingEnd="10sp"
+                android:paddingBottom="10sp"
+                android:textColor="#BA5840"
+                android:textColorLink="#526760"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingStart="10sp"
+            android:paddingLeft="5sp"
+            android:paddingTop="10sp"
+            android:paddingEnd="10sp"
+            android:paddingRight="5sp"
+            android:paddingBottom="10sp">
+
+            <TextView
+                android:id="@+id/rightWrongTextView"
+                android:layout_width="378dp"
+                android:layout_height="51dp"
+                android:layout_span="3"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/rightWrongTextView"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textColorLink="#C5FFFD"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingStart="20sp"
+            android:paddingLeft="5sp"
+            android:paddingTop="10sp"
+            android:paddingEnd="20sp"
+            android:paddingRight="5sp"
+            android:paddingBottom="10sp">
+
+            <Button
+                android:id="@+id/btnAnswerOne"
+                android:layout_width="wrap_content"
+                android:layout_height="64dp"
+                android:layout_span="3"
+                android:background="#EEEE"
+                android:duplicateParentState="false"
+                android:editable="false"
+                android:fontFamily="sans-serif-black"
+                android:includeFontPadding="false"
+                android:shadowColor="@android:color/transparent"
+                android:text="@string/btnAnswerOne" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingStart="20sp"
+            android:paddingLeft="5sp"
+            android:paddingTop="10sp"
+            android:paddingEnd="20sp"
+            android:paddingRight="5sp"
+            android:paddingBottom="10sp">
+
+            <Button
+                android:id="@+id/btnAnswerTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="59dp"
+                android:layout_span="3"
+                android:background="#EEEE"
+                android:fontFamily="sans-serif-black"
+                android:includeFontPadding="false"
+                android:shadowColor="@android:color/transparent"
+                android:shadowRadius="5"
+                android:text="@string/btnAnswerTwo" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingStart="20sp"
+            android:paddingLeft="5sp"
+            android:paddingTop="10sp"
+            android:paddingEnd="20sp"
+            android:paddingRight="5sp"
+            android:paddingBottom="10sp">
+
+            <Button
+                android:id="@+id/btnAnswerThree"
+                android:layout_width="wrap_content"
+                android:layout_height="61dp"
+                android:layout_span="3"
+                android:background="#EEEE"
+                android:fontFamily="sans-serif-black"
+                android:includeFontPadding="false"
+                android:shadowColor="@android:color/transparent"
+                android:shadowRadius="5"
+                android:text="@string/btnAnswerThree" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingStart="20sp"
+            android:paddingLeft="5sp"
+            android:paddingTop="10sp"
+            android:paddingEnd="20sp"
+            android:paddingRight="5sp"
+            android:paddingBottom="10sp">
+
+            <Button
+                android:id="@+id/btnAnswerFour"
+                android:layout_width="wrap_content"
+                android:layout_height="64dp"
+                android:layout_span="3"
+                android:background="#EEEE"
+                android:fontFamily="sans-serif-black"
+                android:includeFontPadding="false"
+                android:shadowColor="@android:color/transparent"
+                android:shadowRadius="5"
+                android:text="@string/btnAnswerFour" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingStart="10sp"
+            android:paddingLeft="5sp"
+            android:paddingTop="10sp"
+            android:paddingEnd="10sp"
+            android:paddingRight="5sp"
+            android:paddingBottom="10sp">
+
+            <Button
+                android:id="@+id/btnReturn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnReturn" />
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10sp"
+                android:text="@string/btnNext" />
+
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
