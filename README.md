@@ -16,6 +16,7 @@ Coming Soon
 ## Use
 
 A first screen to gather user name (will be replaced with choice of quizzes in future)
+
 ![screenshot of first screen](/Images/QuickQuiz1.PNG)
 
 The user is presented with a term/question and four randomized definitions/answers.
