@@ -32,7 +32,8 @@ At the end of the quiz, the user is presented with customized final score summar
 The user can then return to the first screen to restart the quiz.
 
 ## Planned Changes / Bug Fixes
-* More refined UI (font, color, button design)
+* Fully adjusted color scheme for accessibility / more attractive correct answer color
+* More refined UI (font, button design)
 * "Next" button fix - user will not be able to move forward without answering question
 * New screen where user will be able to select from multiple quizzes
 * User will be able to add their own quiz to app
