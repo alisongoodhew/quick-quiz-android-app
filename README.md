@@ -12,7 +12,8 @@ Also functional on tablets, but layout is not completely optimized.
 * Minimum SDK : Android 7.0 (Nougat)
 
 ## Setup
-Coming Soon
+# clone from repository
+# open using your IDE of choice (tested using Android Studio 4.0.1 and above)
 
 ## Use
 
@@ -34,7 +35,7 @@ The user can then return to the first screen to restart the quiz.
 
 ## Planned Changes / Bug Fixes
 * Fully adjusted color scheme for accessibility / more attractive correct answer color
-* More refined UI (font, button design)
+* More refined UI (font, button design, animations)
 * "Next" button fix - user will not be able to move forward without answering question
 * New screen where user will be able to select from multiple quizzes
 * User will be able to add their own quiz to app
