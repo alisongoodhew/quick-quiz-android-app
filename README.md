@@ -12,8 +12,8 @@ Also functional on tablets, but layout is not completely optimized.
 * Minimum SDK : Android 7.0 (Nougat)
 
 ## Setup
-# clone from repository
-# open using your IDE of choice (tested using Android Studio 4.0.1 and above)
+* clone from repository
+* open using your IDE of choice (tested using Android Studio 4.0.1 and above)
 
 ## Use
 
