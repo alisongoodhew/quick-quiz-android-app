@@ -1,6 +1,7 @@
 # quick-quiz-android-app
 A Java Android quiz app for smartphone, transforming .txt files into an interactive, multiple-choice quiz.
 Work-in-progress!
+WARNING: This program may not be in a working state, depending on current progress!
 
 ## Introduction
 This program creates an interactive quiz with a question and four possible answers, complete with scoring and questions remaining countdown.
