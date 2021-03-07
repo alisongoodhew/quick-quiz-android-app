@@ -34,6 +34,7 @@ At the end of the quiz, the user is presented with customized final score summar
 The user can then return to the first screen to restart the quiz.
 
 ## Planned Changes / Bug Fixes
+* Disable all other buttons at end of quiz/incorrect answer given
 * Fully adjusted color scheme for accessibility / more attractive correct answer color
 * More refined UI (font, button design, animations)
 * "Next" button fix - user will not be able to move forward without answering question
